@@ -45,6 +45,10 @@ print(m[2][1])
 
 m.insert(2,["Raj","Ravi"])# insert() method is used to add element at particular index
 print(m)
+monkey  = ['a','b','c','d','e','f','g','h','i']
+print(monkey)
+monkey.append('j') # append() method is used to add element at the end of the list
+
 
 m[3] = "Gajanan Maharaj"
 print(m)
