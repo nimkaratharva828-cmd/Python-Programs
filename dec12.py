@@ -68,3 +68,44 @@ count = 1
 for bj in chotu_list:
     print(f"Iteration {count}:",bj)
     count = count + 1
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#15-12-2025 :Monday
+students_marks = [56,89,72,99,92,72,45,83,72,64,91,72]
+
+#How to remove data from list
+ 
+# Removing data using pop method, pop removes elemnent and returned value which is poped at that index & pop works with index
+print(students_marks)
+ele = students_marks.pop() # removes last element from the list
+eles = students_marks.pop(3) # removes element at index 3
+print(f"students_marks:{students_marks} & removed element is :{ele} & students_marks after removing index 3 element is :{eles} & students_marks now is :{students_marks}")
+# print(students_marks.pop(20)) # IndexError: pop index out of range
+
+
+# Removing data using remove method, remove method removes the first matching value but not returns the removed value & remove works with value
+mes = students_marks.remove(72) # removes first matching value 72 & and it only removes first occurence of 72
+print("Removed value:",mes) # Removed value: None bcoz remove method does not return any value
+print("students_marks after removing 72:",students_marks)
+#mess= students_marks.remove(100) # ValueError: list.remove(x): x not in list
+
+
+
+
+
+
