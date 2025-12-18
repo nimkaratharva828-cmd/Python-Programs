@@ -3,10 +3,18 @@
 #                                           V 
 #                Indexing and Slicing is absent
 
+s={}
+print(type(s)) # By default {} is reserved for dictionary thus if we want to create emepty set we have to use set function.
+p = set()
+print(type(p))
+
+
+
+
+
 # =========================
 # SET IMPLEMENTATION
 # =========================
-
 # Creating a set
 my_set = {1, 2, 3, 4}
 print("Initial set:", my_set)
