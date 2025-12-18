@@ -193,4 +193,4 @@ for item in fs1:
 
 
 
-# If a data type is mutable, it cannot be a dictionary key.
+# If a data type is mutable, it cannot be a dictionary key bcoz dictionary key must be IMMUTABLE.
