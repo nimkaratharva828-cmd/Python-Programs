@@ -1,14 +1,14 @@
-# Key's Method ---> It wil return all keys of our dict
 db = {
     "id": 1,
     "name": "Alice",
     "age": 30,
     "city": "Delhi"
 }
-all_keys = db.keys()
 
-# for k in db.keys():
+# Key's Method ---> It wil return all keys of our dict
+all_keys = db.keys()
 print("Result of keys() method:")
+# for k in db.keys():
 #     print(k)
 for k in all_keys:
     print(k)
