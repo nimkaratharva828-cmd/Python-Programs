@@ -146,7 +146,7 @@ fs2 = frozenset([3, 4, 5])
 print("Union:", fs1.union(fs2))
 
 # Intersection
-print("Intersection:", fs1.intersection(fs2))
+print("Intersection jhabbu:", fs1.intersection(fs2))
 
 # Difference
 print("Difference (fs1 - fs2):", fs1.difference(fs2))

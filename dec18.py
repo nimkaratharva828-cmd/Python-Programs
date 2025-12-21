@@ -46,7 +46,7 @@ for i in mi:
 for ke in mi:
     print(mi[ke]) # It print Values
 
-for g in mi:
+for g in mi:  # Here we want both key and values thus we need to do this but instead of this we have items() method which we learn in dec19.py
     print(g,"------->",mi[g]) # It print key and value
 
 
