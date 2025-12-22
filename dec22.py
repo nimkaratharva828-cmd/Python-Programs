@@ -16,7 +16,8 @@ print(b3[0])
 
 
 
-# bytesarray --> It is array of bytes 
+# bytesarray --> It is array of bytes
+# bytearray-->mutable 
 ba = bytearray()
 print(ba,type(ba)) 
 
@@ -25,3 +26,37 @@ print(baa,type(baa))
 
 baa.append(65)
 print(baa)
+
+# None datatype  ---> not zero not empty
+var = None
+print(var)
+print(type(var))
+
+# Below all functions(print,datatype,id) returns something
+print("Hwllo, World!")
+v1 = "Python"
+datatype = type(v1)
+print(datatype)
+address = id(v1)
+print(address)
+
+res = print("Python") # Here output is none bcoz print returns nothing thus its datatype is none
+print("Result is---->",res) 
+print()
+print()
+print()
+print(print("Python")) # inner print function will print python but itself provides nothing thus outer print get none therefore we get first python then none
+print()
+print()
+print()
+
+print(print("Atharva",print("Python")))
+
+
+
+# OPERATORS
+
+ab = {10:"Poly",20:"Diploma"}
+abc = {100:"Polyy",200:"Diplomaa"}
+print("Addition=",ab+abc) # TypeError:unsupported operand type(s) for +: 'dict' and 'dict'
+
