@@ -40,8 +40,7 @@ def nimkar(n1,n2,n3):
     # return n1 + n2 + n3
     # return n1 - n2 - n3  # A function cannot execute "two return" statements one after another
     return n1 + n2 + n3, n1 - n2 - n3
-
-
+    
 n1 = eval(input("Enter 1st No. :"))
 n2 = eval(input("Enter 2nt No. :"))
 n3 = eval(input("Enter 3rt No. :"))
