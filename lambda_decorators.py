@@ -52,11 +52,11 @@ print()
 def displayName2():
     print("Python,Atharva")
 
-def Mydecoration(fun):
+def Mydecoration(funzz):
     def wrapperFun():
         print("Good Morning!!!!!!!")
         print("*" * 20)
-        fun()
+        funzz()
         print("*" * 20)
         print("Bye Bye!!!!!!!")
     return wrapperFun
