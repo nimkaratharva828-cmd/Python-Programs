@@ -60,5 +60,5 @@ def Mydecoration(funzz):
         print("*" * 20)
         print("Bye Bye!!!!!!!")
     return wrapperFun
-wrapperfun = Mydecoration(displayName2)
-wrapperfun()
+var = Mydecoration(displayName2)
+var()
