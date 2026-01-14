@@ -24,3 +24,7 @@ rcb_list.append(Players(11, "Devdutt Padikkal", 2000, 0, "RCB"))
 
 for p in rcb_list:
     print(p.p_name)
+
+for p in rcb_list:
+    if p.runs>5000:
+        print(p.p_name, p.runs)
