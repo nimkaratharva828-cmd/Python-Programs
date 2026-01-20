@@ -1,15 +1,16 @@
 class Student():
+
+    # Constructor with self keyword
     def __init__(self,r,n,c,s):
         self.roll = r
         self.name = n
         self.city = c
         self.subject = s
 
-s1 = Student()
-print(s1)
-print(type(s1))
+s1 = Student(101,"Rahul","Delhi","Python")
+print(f"Student name is {s1.name} Roll No. is: {s1.roll}")
 
 
-
-print(f"Student Roll: {s1.roll} and Name: {s1.name}")
+s2 = Student(102,"Sonam","Mumbai","Java")
+print(f"Student name is {s2.name} Roll No. is: {s2.roll}")
 
